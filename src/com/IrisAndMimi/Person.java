@@ -1,4 +1,4 @@
-package com.tom;
+package com.IrisAndMimi;
 
 public class Person {
 	public void sayhello(){
