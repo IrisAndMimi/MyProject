@@ -13,7 +13,7 @@ public class YourName {
 		System.out.println("那你幾歲?");
 		UsrNam = scanner.nextLine();
 		int age = Integer.parseInt(UsrNam);
-		if (age==19) 
+		if (age==19) // ||是"或",&&是"且" 
 			System.out.println("哇 跟我一樣");
 		else System.out.println("呵呵");
 		

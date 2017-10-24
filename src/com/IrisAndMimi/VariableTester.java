@@ -22,12 +22,20 @@ public class VariableTester {
 		System.out.println(r.nextInt());
 		int n1  = r.nextInt(6)+1;
 		
-		System.out.println(!(3 == 2));
+		System.out.println(3 != 2);
 		
 		int len = s.length();
 		System.out.println("len=" + len);
 		System.out.println(s.charAt(0));
 		
+		float a = 5.0f;
+		int b = 5;
+		int d = 3;
+		float e = a/d;
+		System.out.println(e);
+		System.out.println(b >> 2);	//位元推移
+		b=b++;	//b=b+1
+		System.out.println(b);
 		
 	}
 		
