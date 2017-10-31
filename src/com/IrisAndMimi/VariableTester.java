@@ -37,6 +37,13 @@ public class VariableTester {
 		b=b++;	//b=b+1
 		System.out.println(b);
 		
+//		字串轉整數
+		String data = "123";
+		int n = Integer.parseInt(data);
+		
+//		整數轉字串
+		String mydata = String.valueOf(n);
+		
 	}
 		
 }
