@@ -18,7 +18,7 @@ public class VariableTester {
 		
 		String s = new String("Hello");
 		Random r = new Random();
-		
+
 		System.out.println(r.nextInt());
 		int n1  = r.nextInt(6)+1;
 		
